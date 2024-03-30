@@ -1,8 +1,8 @@
 ﻿namespace Geometries.Sdk
 {
-    public struct TargetPoint
+    public struct Vector
     {
-        public TargetPoint(float X, float Y, float Z)
+        public Vector(float X, float Y, float Z)
         {
             this.X = X;
             this.Y = Y;

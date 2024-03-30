@@ -7,7 +7,7 @@ namespace Geometries.Sdk
         /// <summary>
         /// Coordinates of point of flux density or dose registration
         /// </summary>
-        public TargetPoint DosePoint = new TargetPoint(0,0,0);
+        public Vector DosePoint = new Vector(0,0,0);
 
         /// <summary>
         /// Attenuation factors for observed layers of materials. The first factor corresponds to material of the source
